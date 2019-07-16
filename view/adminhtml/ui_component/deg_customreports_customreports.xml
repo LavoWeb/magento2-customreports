@@ -38,6 +38,13 @@
     </dataSource>
     <listingToolbar name="listing_top">
         <paging name="listing_paging"/>
+        <exportButton name="export_button">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="selectProvider" xsi:type="string">enquirysaver_grid.enquirysaver_grid.enquirysaver_grid_columns.ids</item>
+                </item>
+            </argument>
+        </exportButton>
     </listingToolbar>
     <columns name="deg_customreports_customreports_columns">
         <column name="customreport_id">
